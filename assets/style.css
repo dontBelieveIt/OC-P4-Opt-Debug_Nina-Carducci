@@ -251,7 +251,7 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 	}
-	#about, #contact .container {
+	.about, #contact .container {
 		align-items: center;
 	}
 	.about-me__title {
@@ -264,7 +264,7 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1000px) {
-	#about{
+	.about{
 		flex-direction: column;
 
 	}
@@ -326,12 +326,14 @@ input[type="submit"] {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
+		position: fixed;
+		width: 100%;
 	}
-	.top-header .nav, .top-header .nav ul {
+	.top-header nav, .top-header nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	.top-header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
@@ -339,21 +341,30 @@ input[type="submit"] {
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
-	#services .container {
+	.services .container {
 		align-items: center;
 	}
 	.service {
 		max-width: 90%;
 	}
-	#about, #contact {
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.about, #contact {
 		padding-inline: 2em;
-		padding-block: 2em;
+        margin: auto;
+        padding-block: 2em;
 	}
 	form {
 		width: 100%;
 	}
 	.picture {
 		width: 80%;
+	}
+	.picture img {
+		width: 70vw;
 	}
 }
 
