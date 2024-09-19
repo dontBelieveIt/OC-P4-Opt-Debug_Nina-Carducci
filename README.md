@@ -26,4 +26,4 @@ This project is not open for contributions, as it is part of my portfolio and ba
 All rights reserved. The content and code are owned by OpenClassrooms.
 
 ## Contact
-For more information, you can reach me through my portfolio here.
+For more information, you can reach me through my portfolio [here](https://roxane-myportefolio.netlify.app/).
